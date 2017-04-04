@@ -3,8 +3,12 @@
     <string name="hint_username">Username</string>
     <string name="hint_password">Password</string>
     <string name="text_button_login">Login</string>
-    <string name="hint_user">Usuario</string>
-    <string name="hint_confirm_password">Confirmar contraseña</string>
-    <string name="text_button_create">únete</string>
+    <string name="dont_have_account">Don't have an account?,</string>
+    <string name="create_here">Create here</string>
+    <string name="email">email</string>
+    <string name="hint_name">Name</string>
+    <string name="hint_user">Username</string>
+    <string name="hint_confirm_password">Confirm password</string>
+    <string name="text_button_create">Join us</string>
     <string name="toolbar_tittle_createaccount">Create account</string>
 </resources>

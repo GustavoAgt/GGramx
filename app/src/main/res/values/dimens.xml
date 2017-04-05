@@ -15,4 +15,5 @@
     <dimen name="like_margintop_like">10dp</dimen>
     <dimen name="textlikenumbercard_card">15sp</dimen>
     <dimen name="likenumbercard_marginleft_card">5dp</dimen>
+    <dimen name="bottombar_height">70dp</dimen>
 </resources>

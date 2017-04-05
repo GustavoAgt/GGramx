@@ -1,4 +1,4 @@
-package com.ggproject.gustavo.ggram;
+package com.ggproject.gustavo.ggram.view;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;

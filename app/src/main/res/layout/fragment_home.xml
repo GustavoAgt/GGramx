@@ -9,19 +9,32 @@
     tools:context="com.ggproject.gustavo.ggram.view.fragment.HomeFragment">
 
     <include layout="@layout/actionbar_toolbar"/>
+
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical"
         app:layout_behavior="@string/appbar_scrolling_view_behavior"
-        android:paddingLeft="@dimen/activity_horizontal_margin">
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_horizontal_margin">
 
-        <android.support.v7.widget.RecyclerView
-            android:id="@+id/pictureRecycler"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"/>
+        <include layout="@layout/cardview_picture"/>
 
     </LinearLayout>
 
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fab"
+        android:layout_width="293dp"
+        android:layout_height="57dp"
+        android:layout_gravity="bottom|end"
+        android:layout_margin="@dimen/fab_margin"
+        android:src="@drawable/plus" />
+
+    <!-- <android.support.v7.widget.RecyclerView
+        android:id="@+id/pictureRecycler"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>-->
 
 </android.support.design.widget.CoordinatorLayout>

@@ -24,6 +24,7 @@ public class ContainerActivity extends AppCompatActivity {
         bottomBar.setDefaultTab(R.id.home);
 
         bottomBar.setOnTabSelectListener(new OnTabSelectListener() {
+
             @Override
             public void onTabSelected(@IdRes int tabId) {
                 switch(tabId){

@@ -10,6 +10,7 @@ import android.widget.TextView;
 
 import com.ggproject.gustavo.ggram.R;
 import com.ggproject.gustavo.ggram.model.Picture;
+import com.squareup.picasso.Picasso;
 
 import java.util.ArrayList;
 
@@ -42,6 +43,8 @@ public class PictureAdapterRecyclerView extends RecyclerView.Adapter<PictureAdap
         holder.timeCard.setText(picture.getTime());
         holder.likeNumberCard.setText(picture.getLikeNumber());
         holder.usernameCard.setText(picture.getUserName());
+        Picasso.with(activity).load(picture.getPicture()).into(holder.pictureCard);
+
     }
 
     @Override

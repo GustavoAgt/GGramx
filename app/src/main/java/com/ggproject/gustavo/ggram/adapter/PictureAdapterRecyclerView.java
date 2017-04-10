@@ -39,7 +39,7 @@ public class PictureAdapterRecyclerView extends RecyclerView.Adapter<PictureAdap
     @Override
     public void onBindViewHolder(PictureViewHolder holder, int position) {
         Picture picture = pictures.get(position);
-        holder.timeCard.setText(picture.getUserName());
+        holder.timeCard.setText(picture.getTime());
         holder.likeNumberCard.setText(picture.getLikeNumber());
         holder.usernameCard.setText(picture.getUserName());
     }

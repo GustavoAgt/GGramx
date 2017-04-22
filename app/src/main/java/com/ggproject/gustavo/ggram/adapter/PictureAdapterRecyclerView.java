@@ -20,12 +20,11 @@ import java.util.ArrayList;
 
 public class PictureAdapterRecyclerView extends RecyclerView.Adapter<PictureAdapterRecyclerView.PictureViewHolder>{
 
-
     private ArrayList<Picture> pictures;
     private int resource;
     private Activity activity;
 
-    public PictureAdapterRecyclerView(ArrayList<Picture> pictures, int resource, Activity activity) {
+    public  PictureAdapterRecyclerView(ArrayList<Picture> pictures, int resource, Activity activity) {
         this.pictures = pictures;
         this.resource = resource;
         this.activity = activity;

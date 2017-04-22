@@ -33,8 +33,6 @@
         android:layout_height="57dp"
         android:layout_gravity="bottom|end"
         android:layout_margin="@dimen/fab_margin"
-        android:src="@drawable/plus" />
-
-
+        android:src="@drawable/plus"/>
 
 </android.support.design.widget.CoordinatorLayout>

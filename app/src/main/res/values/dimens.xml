@@ -18,4 +18,5 @@
     <dimen name="bottombar_height">70dp</dimen>
     <dimen name="fab_margin">20dp</dimen>
     <dimen name="cardRadius">4dp</dimen>
+    <dimen name="appbarlayout_height">256dp</dimen>
 </resources>

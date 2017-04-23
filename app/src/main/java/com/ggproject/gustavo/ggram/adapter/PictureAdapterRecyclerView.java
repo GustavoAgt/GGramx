@@ -1,6 +1,7 @@
 package com.ggproject.gustavo.ggram.adapter;
 
 import android.app.Activity;
+import android.content.Intent;
 import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -10,6 +11,7 @@ import android.widget.TextView;
 
 import com.ggproject.gustavo.ggram.R;
 import com.ggproject.gustavo.ggram.model.Picture;
+import com.ggproject.gustavo.ggram.view.PictureDetailActivity;
 import com.squareup.picasso.Picasso;
 
 import java.util.ArrayList;
@@ -44,6 +46,13 @@ public class PictureAdapterRecyclerView extends RecyclerView.Adapter<PictureAdap
         holder.usernameCard.setText(picture.getUserName());
         Picasso.with(activity).load(picture.getPicture()).into(holder.pictureCard);
 
+        holder.pictureCard.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(activity, PictureDetailActivity.class);
+                activity.startActivity(intent);
+            }
+        });
     }
 
     @Override

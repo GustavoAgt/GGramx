@@ -21,4 +21,7 @@
 
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="secondword_detail">Me Gusta</string>
+    <string name="cupcakestring_img">cupcakes on board!</string>
+    <string name="lorem">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi scelerisque vulputate ornare. Mauris at magna posuere dui rutrum tincidunt at eu turpis. Maecenas tincidunt, lectus ut fringilla sollicitudin, tellus purus bibendum tellus, id vulputate felis augue at elit. Cras cursus a orci vitae aliquet. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Mauris nec vestibulum leo. In hac habitasse platea dictumst. Nullam nec mi lacinia, venenatis sapien a, tempor mi. Donec ut feugiat purus. Mauris faucibus accumsan libero, et luctus risus aliquam in. Suspendisse elementum, nulla nec elementum posuere, libero ex bibendum nisl, interdum dignissim nulla mauris a turpis. Donec lobortis lectus ut magna dignissim interdum. Vivamus lacinia, velit nec venenatis faucibus, nibh lorem pharetra elit, semper dignissim felis justo in neque. Praesent eget semper nibh. Integer mattis molestie vehicula.</string>
 </resources>

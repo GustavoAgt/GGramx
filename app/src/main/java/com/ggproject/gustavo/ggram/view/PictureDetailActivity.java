@@ -5,11 +5,11 @@ import android.os.Bundle;
 
 import com.ggproject.gustavo.ggram.R;
 
-public class PictureDatailActivity extends AppCompatActivity {
+public class PictureDetailActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_picture_datail);
+        setContentView(R.layout.activity_picture_detail);
     }
 }

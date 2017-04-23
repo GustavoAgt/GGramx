@@ -25,7 +25,7 @@
                 android:value=".LoginActivity" />
         </activity>
         <activity android:name=".view.ContainerActivity" />
-        <activity android:name=".view.PictureDatailActivity"></activity>
+        <activity android:name=".view.PictureDetailActivity"></activity>
     </application>
 
 </manifest>
